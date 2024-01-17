@@ -1,0 +1,9 @@
+##########################################################################
+# task: 1-> aquring, 2-> depositing, 3->charging, 4-> charging_stop
+# carrier (types): 0->4: Basket, 5: Box, [if task = 3 or 4, carrier omited]
+##########################################################################
+
+int32 task
+int32 carrier   
+---
+bool received

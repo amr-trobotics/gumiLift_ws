@@ -1,0 +1,32 @@
+color resolution
+
+640 x 480
+Intrinsic matrix:
+fx:  608.5157470703125
+fy:  608.3509521484375
+ppx:  323.1455993652344
+ppy:  245.47860717773438
+Distortion coefficients:  [0.0, 0.0, 0.0, 0.0, 0.0]
+
+
+
+
+
+1280 x 720
+Intrinsic matrix:
+fx:  912.7735595703125
+fy:  912.5264892578125
+ppx:  644.7183837890625
+ppy:  368.2178955078125
+Distortion coefficients:  [0.0, 0.0, 0.0, 0.0, 0.0]
+
+
+
+
+1920 x 1080
+Intrinsic matrix:
+fx:  1369.160400390625
+fy:  1368.7896728515625
+ppx:  967.0775756835938
+ppy:  552.3268432617188
+Distortion coefficients:  [0.0, 0.0, 0.0, 0.0, 0.0]

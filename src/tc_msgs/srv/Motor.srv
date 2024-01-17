@@ -1,0 +1,9 @@
+##########################################################################
+# direction: forward =1 or backward = 2
+# speed: motor speed = 0(no speed), = 1: low speed, =2: medium speed, =3: high speed
+##########################################################################
+
+int32 direction
+int32 speed           
+---
+bool received

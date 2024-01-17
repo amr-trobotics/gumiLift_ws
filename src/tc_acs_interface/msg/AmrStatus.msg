@@ -1,0 +1,23 @@
+int32 task_status
+int32 task_type
+int32 unfinished_stations #just length
+int32 last_action
+int32 auto_manual_mode
+int32 cur_node
+int32 dest_node 
+int32 link_num
+int32 angle
+int32 bat_volt
+int32 bat_soc
+int32 x
+int32 y
+int32 alram1
+int32 alram2
+int32 alram3
+int32 obstacle_sensing
+int32 acs_pause
+int32 blocked
+int32 alram_description
+int32 alram_state
+int32 pio_status
+int32 cmd_id

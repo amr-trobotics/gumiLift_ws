@@ -1,0 +1,20 @@
+##########################################################################
+# Service
+# task: 1 aquire, deposit, 2 charging
+# ---
+# detected: True if aruco detected, False if not
+# id : aruco marker ID
+# (dist,vx,vy) : distance moved by robot with velocity vx, vy
+# (theta, vw) theta(deg): rotation (positive), if theta> 0, cw<0, and vice versa
+##########################################################################
+
+int32 task           
+---
+bool detected
+int32 id
+float32 dist
+float32 vx
+float32 vy
+float32 theta
+float32 vw
+int32 error_code

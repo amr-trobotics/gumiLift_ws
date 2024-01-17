@@ -1,0 +1,11 @@
+# order -> 1 : rotate / 2 : translation 
+
+int32 order
+float32 dist
+float32 vx
+float32 vy
+float32 theta
+float32 vw
+
+---
+bool received

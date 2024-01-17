@@ -1,0 +1,11 @@
+# node distance for docking.
+LM38, 39: , // plasam dismier same as NAMYOUNG Company
+self.docking_distance = 0.135
+
+
+STK 1, LM9902, 9901
+self.docking_distance = 0.175   //0.135 + 40
+
+9903
+self.docking_distance = 0.190 
+

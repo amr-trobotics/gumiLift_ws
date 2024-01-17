@@ -1,0 +1,8 @@
+##########################################################################
+# mode: mode = 1: move to CYL_LOWER_LIMIT; mode = 3: move to CYL_BASKET_LIMIT; mode = 4: move to box CYL_BOX_LIMIT; 
+# mode = 2: move to CYL_FWD_LIMIT,
+##########################################################################
+
+int32 mode        
+---
+bool received

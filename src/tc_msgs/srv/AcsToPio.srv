@@ -1,0 +1,10 @@
+########################################
+# Service ACS → AMR order
+# index: 1 -> Loading or Aquire (AQ)
+# index: 2 -> Unloading or Deposit (DP)
+# ---
+# ret: return status: 1->SUCCEEDED, 2->FAILED, 3->ABORTED
+########################################
+int32 index
+---
+int64 ret

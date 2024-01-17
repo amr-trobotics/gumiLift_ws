@@ -1,0 +1,5 @@
+# ACS Transfer Info Message
+
+string msg
+---
+bool received 
