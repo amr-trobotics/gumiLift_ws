@@ -36,7 +36,7 @@
 #define IN_TDRIVER_ON 28 // don't use
 #define IN_TDRIVER_ALARM 29 // don't use 
 
-#define IN_PIO_GO 31 
+#define IN_PIO_GO 30 //wrong in amr4
 
 /*
     #define IN_REAR_RWD_DETECTION 28 // TASK

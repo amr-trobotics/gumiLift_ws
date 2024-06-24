@@ -678,6 +678,8 @@ void Scenario::tDriverCallBack(const std_msgs::msg::String::SharedPtr msg)
         {
             amr_status_json_["x"] = j["x"].get<double>();
             amr_status_json_["y"] = j["y"].get<double>();
+            json path2;
+            path2["from_node"] = "5102";
             amr_status_json_["angle"] = j["angle"].get<int>();
             std::string cur_station = j["current_station"];
 
@@ -1073,7 +1075,7 @@ void Scenario::amrDoTaskFirst(json command)
     int task_status = amr_status_json_["task_status"].get<int>();
     int task_priority = (*task_map_)[task_type];
 
-    if(std::stoi(start_node_2f) < tdriver_node && tdriver_node < std::stoi(waiting_node_2f))
+    if(std::stoi(start_node_2f) == tdriver_node || tdriver_node == std::stoi(waiting_node_2f))
     {
         if(task_priority == ASE_OPEN || task_priority == ASX_OPEN)
         {

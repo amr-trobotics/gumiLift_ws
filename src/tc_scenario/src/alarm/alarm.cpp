@@ -168,7 +168,7 @@ void AlarmReport::checkBumper()
         is_bumper_detected_ = true;
         //(*current_alarm)[3202] = 1;
     }
-    if(ezio_input_->at(IN_BUMPER_DETECTION_2) == 1)
+    if(ezio_input_->at(IN_BUMPER_DETECTION_2) == 0)
     {
         logWrite(LOG_INFO, "Bumper 2 Detected On");
         is_bumper_detected_ = true;
